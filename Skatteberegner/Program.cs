@@ -15,7 +15,7 @@
                 return 0;
             }
 
-            if (julegave > 900 && andenGave > 300) {
+            if (julegave > 900 && andenGave >= 300) {
                 return julegave + andenGave;
             }
 
